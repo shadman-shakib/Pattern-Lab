@@ -37,6 +37,8 @@ function startVideo() {
     err => console.error(err)
   )
 }
+
+//play live video
 video.addEventListener('play', () => {
   const canvas = faceapi.createCanvasFromMedia(video)
   document.body.append(canvas)
@@ -44,9 +46,17 @@ video.addEventListener('play', () => {
   faceapi.matchDimensions(canvas, displaySize)
   //const labeledFaceDescriptors = loadLabeledImages()
   setInterval(async () => {
-    const labeledFaceDescriptors = await loadLabeledImages()
+    
+    //To perform face recognition, one can use faceapi.FaceMatcher to compare reference face descriptors to query face descriptors.
+    const labeledFaceDescriptors = await loadLabeledImages() 
+    
+    // create FaceMatcher with automatically assigned labels
+    // from the detection results for the reference image
     const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, 0.6)
     const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions().withFaceDescriptors()
+    
+    // resize the detected boxes and landmarks in case your displayed image has a different size than the origi
+    
     const detectionsWithExpressions = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions().withFaceDescriptors()
     const resizedDetections = faceapi.resizeResults(detectionsWithExpressions, displaySize)
 
