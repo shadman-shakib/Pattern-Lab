@@ -1,6 +1,8 @@
 # Pattern-Lab
 
 Project Title: Face recognization for class performance with MTCNN face detection
+Overview: 
+![Test Image 1](https://miro.medium.com/max/1400/1*JH-L5EmTqj_fHEcXnzZT5Q.png)
 Features: 
         1. Face detection 
         2. Preprocessing the data
