@@ -15,6 +15,7 @@ Language: HTML, CSS, JavaScript
 Frameworks: Bootstrap 
 APIs: Face API 
 
-Presentatoin Slide: 
+# Presentatoin Slide
 #####
+We have merged the google slide for better undarstanding of the project.
 https://docs.google.com/presentation/d/1jJ3uZck1c7UhlB2R3BvUMdGTKThYqfvrtC4KiISaGy0/edit?usp=sharing
