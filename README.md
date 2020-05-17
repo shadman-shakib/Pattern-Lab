@@ -26,7 +26,9 @@ https://docs.google.com/presentation/d/1jJ3uZck1c7UhlB2R3BvUMdGTKThYqfvrtC4KiISa
 Websites:
 ---------
 How Does A Face Detection Program Work? : https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff
+
 What Does A Face Detection Neural Network Look Like?: https://towardsdatascience.com/face-detection-neural-network-structure-257b8f6f85d1
 
-# Other Repositories:
+Other Repositories:
+-----------------
 Face API JS: https://github.com/justadudewhohacks/face-api.js
