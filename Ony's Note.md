@@ -17,12 +17,36 @@ In **stage 1** the input image is scaled down multiple times to build an image p
 After fiddling around with some MTCNN implementations, it turns out that you can actually get quite solid detection results at much lower inference times compared to SSD Mobilenet v1, even by running inference on the CPU. As an extra bonus, from the 5 Point Face Landmarks we get face alignment for free! This way we don’t have to perform 68 Point Face Landmark detection as an intermediate step before computing a face descriptor.[Source](https://itnext.io/realtime-javascript-face-tracking-and-face-recognition-using-face-api-js-mtcnn-face-detector-d924dd8b5740?gi=43e1bed025ca#:~:text=MTCNN%20%E2%80%94%20Simultaneous%20Face%20Detection%20%26%20Landmarks,(link%20to%20the%20paper).)
 
 It's a Simultaneous Face Detection which runs faster on a CPU. Let's Deep Dive to those 3 stages.
+![3 Stage of MTCNN](https://miro.medium.com/max/1400/1*ICM3jnRB1unY6G5ZRGorfg.png " 3 Stage of MTCNN ")
 
-P-Net:
+Stage-1:
  ----
- 
-R-Net:
-----
+1. Pass in image
+2. Create multiple scaled copies of the image
+3. Feed scaled images into P-Net
+4. Gather P-Net output
+5. Delete bounding boxes with low confidence
+6. Convert 12 x 12 kernel coordinates to “un-scaled image” coordinates
+7. Non-Maximum Suppression for kernels in each scaled image
+8. Non-Maximum Suppression for all kernels
+9. Convert bounding box coordinates to “un-scaled image” coordinates
+10. Reshape bounding boxes to square
 
-O-Net:
+Stage-2:
+----
+1. Pad out-of-bound boxes
+2. Feed scaled images into R-Net
+3. Gather R-Net output
+4. Delete bounding boxes with low confidence
+5. Non-Maximum Suppression for all boxes
+6. Convert bounding box coordinates to “un-scaled image” coordinates
+7. Reshape bounding boxes to square
+
+Stage-3:
 ---
+1. Pad out-of-bound boxes
+2. Feed scaled images into O-Net
+3. Gather O-Net output
+4. Delete bounding boxes with low confidence
+5. Convert bounding box and facial landmark coordinates to “un-scaled image” coordinates
+6. Non-Maximum Suppression for all boxes
