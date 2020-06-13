@@ -19,6 +19,10 @@ After fiddling around with some MTCNN implementations, it turns out that you can
 It's a Simultaneous Face Detection which runs faster on a CPU. Let's Deep Dive to those 3 stages.
 ![3 Stage of MTCNN](https://miro.medium.com/max/1400/1*ICM3jnRB1unY6G5ZRGorfg.png " 3 Stage of MTCNN ")
 
+<p align="center">
+  The 3 Stages of MTCNN <a href="https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff">Source</a>
+</p>
+
 Stage-1:
  ----
 1. Pass in image
@@ -50,3 +54,6 @@ Stage-3:
 4. Delete bounding boxes with low confidence
 5. Convert bounding box and facial landmark coordinates to “un-scaled image” coordinates
 6. Non-Maximum Suppression for all boxes
+
+#### A Demo play of the ```face-api.js``` can be found [here](https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection/) by original author
+
