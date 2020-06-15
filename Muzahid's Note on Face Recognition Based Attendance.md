@@ -2,6 +2,7 @@
 
 <a href="https://github.com/shadman-shakib/Pattern-Lab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnUGAKZKjeZMbT-1GrVJWxP0FLWBzjMKbQfX284ywblNHiDZy7&usqp=CAU" align="left" hspace="10" vspace="6"></a>
 
+
 **Face Recognition Based Attendance System** is than most of us can remember attendance at Schools/Collage/University as the tutor calling out our names/registered numbers and us yelling back “PRESENT, YES Sir!”. All of that could soon change with the introduction of facial recognition in these systems.
 
 
@@ -45,4 +46,8 @@ A school in China is monitoring students with facial recognition technology that
 The "intelligent classroom behavior management system," according to Global Times, also records students' attendance immediately, and students' faces are used to pay for canteen lunches and below items from the library.
 
 ## References
-<a href="https://facex.io/blog/facial-recognition-applications/">
+<a href="https://facex.io/blog/facial-recognition-applications/">facex.io</a>
+<a href="https://www.businessinsider.in/A-school-in-China-is-monitoring-students-with-facial-recognition-technology-that-scans-the-classroom-every-30-seconds/articleshow/64250750.cms">businessinsider.in</a>
+<a href="https://ijcsmc.com/docs/papers/February2014/V3I2201468.pdf">FACE RECOGNITION BASED
+ATTENDANCE MARKING SYSTEM</a>
+
