@@ -39,3 +39,10 @@ Depending on the quality of the input data, a system would need an appropriate a
 
 ### Angles
 Many non-premium facial recognition systems cannot account for faces that are captured at angles other than straight into the capturing camera. The disadvantage of this is that it makes the attendance marking process slower and less efficient.
+
+## Recent Report on Face Recognition Based Attendance System
+A school in China is monitoring students with facial recognition technology that scans the classroom every 30 seconds. A Chinese high school is using facial recognition technology to monitor and analyze students' behavior. The technology scans classrooms at Hangzhou No. 11 High School every 30 seconds and records students' facial expressions, categorizing them into happy, angry, fearful, confused, or upset which is close to our proposed system. The system also records student actions such as writing, reading, 1aising a hand and sleeping at a desk.
+The "intelligent classroom behavior management system," according to Global Times, also records students' attendance immediately, and students' faces are used to pay for canteen lunches and below items from the library.
+
+## References
+<a href="https://facex.io/blog/facial-recognition-applications/">
