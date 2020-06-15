@@ -6,7 +6,7 @@
 **Face Recognition Based Attendance System** is than most of us can remember attendance at Schools/Collage/University as the tutor calling out our names/registered numbers and us yelling back “PRESENT, YES Sir!”. All of that could soon change with the introduction of facial recognition in these systems.
 
 
-
+<br>
 
 ## Discussion
 * Introduction
