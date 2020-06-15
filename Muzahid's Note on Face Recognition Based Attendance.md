@@ -4,17 +4,20 @@
 
 **Face Recognition Based Attendance System** is than most of us can remember attendance at Schools/Collage/University as the tutor calling out our names/registered numbers and us yelling back “PRESENT, YES Sir!”. All of that could soon change with the introduction of facial recognition in these systems.
 
-## Discussion
 
-* [Introduction]
-* [Advantages of Face Recognition]
-* [Advantages of Face Recognition Based Attendance System]
-* [Disadvantages]
-* [Recent Report on Face Recognition Based Attendance System]
+
+
+## Discussion
+* Introduction
+* Advantages of Face Recognition
+* Advantages of Face Recognition Based Attendance System
+* Disadvantages
+* Recent Report on Face Recognition Based Attendance System
 
 ## Introduction
 Automatic face recognition (AFR) technologies have seen dramatic improvements in performance over the past years, and such systems are now widely used for security and commercial applications. An automated system for human face recognition in a real time background for a college to mark the attendance of their employees and correnly using at school/Collage/University.
 <a href="https://github.com/shadman-shakib/Pattern-Lab"><img src="https://lh3.googleusercontent.com/proxy/nxaorNgJZ9fOyhf64DEGnjBW1b1fhzcY_UgZKhFSmWxgMTnFb1YwYvGvekqgvu0oMo59EJlUAffwXvculRbEbwcBnB9kt-CLdDFMOAuQYz6LAvxEdwU" align="center"></a>
+
 Being watched and/or monitored is a legitimate fear for many people. This is why facial recognition is slow to be accepted and welcomed in many industries. One industry or field of work that would benefit the most out of facial recognition though, is that of attendance systems. The applications of Face Recognition Based Attendance System could be found in Schools, offices, events, and many others.
 
 ## Advantages of Face Recognition
@@ -23,4 +26,16 @@ A recent report out of China stated that a school has installed facial recogniti
 In the same way, these cameras could be used to identify students and record their attendance in a class. With photos submitted to schools for various forms and documents, the students’ faces could be added to data sets to record their attendance in the respective classes.
 Most offices and government buildings use biometric systems for logging in work hours and restricting access to only those people that are permitted. Although facial recognition is now being implemented in many countries for this purpose, they still largely rely on fingerprint sensors because of the lower chance of duplication and fraud. The downside to this is that recording a fingerprint is a task that requires relatively more effort.
 
+## Advantages of Face Recognition Based Attendance System
+Introducing facial recognition would cut down these inefficiencies since most modern facial recognition systems can perform the task in under two seconds. It is just a matter of collecting images of attendees at the time of issuing event passes.
+This would also reduce the instances of ticket reselling as well as stolen or lost tickets being used by individuals that are not the official purchasers of said tickets.
 
+## Disadvantages
+### Image quality
+The quality of the reference image plays an important role in the identification process. If the resolution of the said image is not high enough, it can cause cameras to be tricked into believing that the person being scanned is not the same as in the photo. An easy solution is to ensure that both the reference images and scanning are performed by similar cameras.
+
+### Storage
+Depending on the quality of the input data, a system would need an appropriate amount of storage. This could be troublesome if the data collected is of high quality and requires large amounts of storage space especially for events with a large expected attendance.
+
+### Angles
+Many non-premium facial recognition systems cannot account for faces that are captured at angles other than straight into the capturing camera. The disadvantage of this is that it makes the attendance marking process slower and less efficient.
