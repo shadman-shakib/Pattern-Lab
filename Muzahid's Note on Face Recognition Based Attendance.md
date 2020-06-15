@@ -46,8 +46,8 @@ A school in China is monitoring students with facial recognition technology that
 The "intelligent classroom behavior management system," according to Global Times, also records students' attendance immediately, and students' faces are used to pay for canteen lunches and below items from the library.
 
 ## References
-<a href="https://facex.io/blog/facial-recognition-applications/">facex.io</a>
-<a href="https://www.businessinsider.in/A-school-in-China-is-monitoring-students-with-facial-recognition-technology-that-scans-the-classroom-every-30-seconds/articleshow/64250750.cms">businessinsider.in</a>
-<a href="https://ijcsmc.com/docs/papers/February2014/V3I2201468.pdf">FACE RECOGNITION BASED
+### <a href="https://facex.io/blog/facial-recognition-applications/">facex.io</a>
+### <a href="https://www.businessinsider.in/A-school-in-China-is-monitoring-students-with-facial-recognition-technology-that-scans-the-classroom-every-30-seconds/articleshow/64250750.cms">businessinsider.in</a>
+### <a href="https://ijcsmc.com/docs/papers/February2014/V3I2201468.pdf">FACE RECOGNITION BASED
 ATTENDANCE MARKING SYSTEM</a>
 
